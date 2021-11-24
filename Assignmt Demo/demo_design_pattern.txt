@@ -1,0 +1,29 @@
+package demo_design_pattern;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Khatab
+ */
+public class Demo_design_pattern {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)
+    {
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter desierd member");
+        String str=input.nextLine();
+        factory f = new factory ();
+        staff s=f.getstaff(str);
+        s.getsalary();
+        s.getyearsOFwork();
+        s.serdata("khatab", 5, 21, 3000);
+        s.printDATA();
+        
+        
+    }
+    
+}

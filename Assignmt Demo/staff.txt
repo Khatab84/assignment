@@ -1,0 +1,14 @@
+package demo_design_pattern;
+
+/**
+ *
+ * @author Khatab
+ */
+public interface staff 
+{
+    public void serdata( String name, int id,int age , double salay );
+    public void getsalary();
+    public void getyearsOFwork();
+    public void printDATA();
+    
+}
